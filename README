@@ -1,0 +1,7 @@
+== NonBlank PLUGIN for DokuWiki ==
+
+When writing documents in markup languages which preserve a single link break in CJK,
+an unexpected space might be inserted between two full-width characters,
+which is not the common usage in CJK.
+Moreover, those spaces might disturb the search of phrases or sentences.
+Therefore it would be better those spaces being removed.

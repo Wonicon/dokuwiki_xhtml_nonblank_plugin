@@ -1,0 +1,7 @@
+base     nonblank
+author   Huizhe Wang
+email    huizhewang@outlook.com
+date     2017-04-17
+name     NonBlank Plugin
+desc     A replacement for the standard dokuwiki renderer which removes the single line break between two non-ASCII characters.
+url      https://github.com/Wonicon/dokuwiki_xhtml_nonblank_plugin
