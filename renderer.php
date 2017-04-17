@@ -17,6 +17,15 @@ require_once DOKU_INC . 'inc/parser/xhtml.php';
  */
 class renderer_plugin_nonblank extends Doku_Renderer_xhtml {
     /**
+     * Make available as XHTML replacement renderer
+     *
+     * @param string $format requested format
+     */
+    public function canRender($format) {
+        return $format == 'xhtml';
+    }
+
+    /**
      * Render plain text data, and remove the single line break
      * if the previous and following characters are both full-width characters,
      * especially CJK.
